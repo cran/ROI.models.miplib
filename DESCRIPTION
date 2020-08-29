@@ -1,6 +1,6 @@
 Package: ROI.models.miplib
-Version: 0.0-2
-Title: R Optimization Infrastructure: 'MIPLIB' 2010 Benchmark Instances
+Version: 1.0-0
+Title: 'ROI' Access to 'MIPLIB' 2010 Benchmark Instances
 Authors@R: c( person("Florian", "Schwendinger", 
                      role = c("aut", "cre"), 
                      email = "FlorianSchwendinger@gmx.at"),
@@ -13,14 +13,14 @@ Description: The mixed integer programming library 'MIPLIB' (see <http://miplib.
 	<http://mpc.zib.de/index.php/MPC/article/viewFile/56/28>.
 	The 'README.md' file illustrates how to use this package.
 Depends: R (>= 2.10)
-Imports: R.utils, Rglpk, ROI (>= 0.2-0)
+Imports: R.utils, Rglpk, ROI (>= 0.3-0)
 License: GPL-3
 URL: http://R-Forge.R-project.org/projects/roi
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2019-01-25 12:21:45 UTC; florian
+Packaged: 2020-08-29 19:19:10 UTC; f
 Author: Florian Schwendinger [aut, cre],
   Stefan Theussl [aut]
 Maintainer: Florian Schwendinger <FlorianSchwendinger@gmx.at>
 Repository: CRAN
-Date/Publication: 2019-01-25 13:10:03 UTC
+Date/Publication: 2020-08-29 19:30:03 UTC
